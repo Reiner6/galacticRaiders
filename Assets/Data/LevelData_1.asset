@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7a4ae8ed539254a9eb72ab1c807552, type: 3}
+  m_Name: LevelData_1
+  m_EditorClassIdentifier: 
+  levelName: LevelData_1
+  SpawnValue: '1,2,2,2,1,2,3,1,2,1,3,2,1
+
+    1,1,2,1,1,2,3,1,2,1,3,2,1
+
+    1,1,2,1,1,2,3,1,2,1,3,2,1
+
+    1,1,2,1,1,2,1,2,1,2,1,2,1
+
+    1,1,2,1,3,1,2,1,3,1,2,1,3'
+  speed: 1
+  introClip: {fileID: 8300000, guid: 4c5cf84a37dd6214e9db47cd938eb882, type: 3}
+  loopClip: {fileID: 8300000, guid: 1a94f3e58428cf940ba67bc5d7f0fad9, type: 3}
