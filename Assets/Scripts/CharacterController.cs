@@ -27,10 +27,12 @@ public class CharacterController : MonoBehaviour
         {
             timer += Time.deltaTime;
             myShip.transform.position = Vector3.Lerp(new Vector3(0, -(CameraComponent.instance.CameraHeight / 2f) + 1f, 0), new Vector3(0, -(CameraComponent.instance.CameraHeight / 2f) - 1f, 0), timer);
+           
         }
         else
         {
             timer = 0;
+            GameManager.instance.myShipPositionYValue = myShip.transform.position.y+0.5f;
         }
     }
     /// <summary>
